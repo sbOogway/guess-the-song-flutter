@@ -1,6 +1,7 @@
 import 'package:best_flutter_ui_templates/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'model/homelist.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
@@ -51,7 +52,11 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  appBar(),
+                  // appBar(),
+                  SvgPicture.asset("guess_the_song_logo.svg"),
+                  ElevatedButton(onPressed: () {
+
+                  }, child: const Text("Start game")),
                   Expanded(
                     child: FutureBuilder<bool>(
                       future: getData(),
