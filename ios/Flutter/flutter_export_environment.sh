@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
 export "FLUTTER_ROOT=C:\Users\Mattia\flutter"
-export "FLUTTER_APPLICATION_PATH=C:\Users\Mattia\Desktop\dev\Best-Flutter-UI-Templates\best_flutter_ui_templates"
+export "FLUTTER_APPLICATION_PATH=C:\Users\Mattia\Desktop\dev\guess-the-song-flutter\best_flutter_ui_templates"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_TARGET=lib\main.dart"
 export "FLUTTER_BUILD_DIR=build"
